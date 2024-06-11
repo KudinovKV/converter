@@ -31,9 +31,6 @@ run:
 .PHONY: all
 all: build run
 
-.PHONY: test-all
-test-all: test
-
 .PHONY: help
 help:
 	@echo 'Available commands:'
@@ -43,6 +40,4 @@ help:
 	@echo '  make lint           - lint the code'
 	@echo '  make run            - build and run the project'
 	@echo '  make all            - build and run the project'
-	@echo '  make test-all       - build and run tests'
-	@echo '  make ci             - build, run tests, and lint the code'
 	@echo '  make help           - display this help message'
